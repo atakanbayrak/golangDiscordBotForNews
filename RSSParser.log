@@ -1,2 +1,13 @@
-2022/12/14 01:05:57 discord.go:42: [INFO] RSSParserBot calisiyor.
-2022/12/14 01:06:00 discord.go:48: [INFO] Bot durduruldu.
+2022/12/14 12:08:29 discord.go:44: [INFO] RSSParserBot calisiyor.
+2022/12/14 12:08:30 scraper.go:39: [INFO] RSS Parser https://pwnlab.me/feed/ icin basladi
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/ag-dinleme-araclari/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/tr-picoctf-otp-implementation-tersine-muhendislik-sorusu-cozumu/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/capture-the-flag-101/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/tr-put-metodu-ile-sunucu-kontrolu-ele-gecirme/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/en-iyi-ctf-platformlari/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/tr-yavuzlar-vulnlab-xss-cozumleri/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/tr-dns-zone-transferi-mantigini-anlamak/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/tr-r-programlama-temelleri/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/tr-authentication-zafiyeti/
+2022/12/14 12:08:30 scraper.go:43: [WARN] FeedItem zaten olusturuldu, Link https://pwnlab.me/adeo-the-chupacabra-vakasinin-adli-bilisim-teknikleriyle-incelenmesi/
+2022/12/14 12:10:01 discord.go:50: [INFO] Bot durduruldu.

@@ -5,11 +5,12 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
 
 	"github.com/bwmarrin/discordgo"
 )
 
-var token = "MTA1MjMxOTE5OTM3ODI3NjM5Mg.GSwY4b.Q6KrTZQBtnL4VJIAzBKd264dnTvURQ3Ewqz-cw"
+var token = "MTA1MjMxOTE5OTM3ODI3NjM5Mg.GRSCGY.fRzgluElZ7ua-CjgyHTht3cfc58SS33tF_oCTo"
 var botChID = "1052320073391558696"
 
 var Dg *discordgo.Session
@@ -31,7 +32,8 @@ func initSession() {
 
 func ConnectToDC() {
 	initSession()
-
+	go ParseRSS()
+	time.Sleep(time.Second * 1)
 	//Register messageCrate function
 	Dg.AddHandler(messageCreate)
 
